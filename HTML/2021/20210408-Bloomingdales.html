@@ -1,0 +1,231 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+  <title>Bond No. 9</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- So that mobile will display zoomed in -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- enable media queries for windows phone 8 -->
+  <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+
+  <style type="text/css">
+    body { font-family: 'Raleway', sans-serif; }
+    body,table,tr,td,span,ul,li { margin:0; padding:0; }
+    h1,h2,h3,h4,h5,h6 { line-height:1.1; font-weight:bold; margin:0; padding:0; color:#000000; }
+    body {-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:none;width:100%!important;height:100%;}
+    img {max-width:100%;}
+    p {margin-top: 0; margin-bottom:0;}
+    a {color: #000000;}
+    br {font-size: 1px; line-height: 1; margin: 0; padding: 0; }
+
+    .clearfix { clear:both; margin: 0; padding: 0; height:1px; background-color: #ffffff; }
+    .clearfix.spacer { height: 40px; }
+    .extra-bottom-space { margin-bottom: 15px; }
+
+    .content table { width:100%; }
+    .body-wrap { margin:0 auto; border: none; max-width:600px !important; text-align:center; }
+    .logo-header { width:100%; background-color:#ffffff; margin-top: 5px; margin-bottom: 5px; }
+    .logo-header .bond-logo { border: none; text-align:center;margin-top:5px;margin-bottom:5px; }
+
+    .pre-header-wrapper { background-color:#121212; padding:5px 10px; margin-bottom: 3px; }
+    .pre-header-link { font-size:14px; font-weight: bold; text-decoration:none; color:#ffffff; text-transform:uppercase;}
+
+    /* Top Nav */
+    .top-nav { width:100%; table-layout: fixed; margin-bottom: 10px; border: none; border-collapse: collapse; border-spacing: 0px;  mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    .top-nav td { width: 33.333333%; text-align: center; padding-top: 1px; padding-bottom: 10px; padding-left: 15px; padding-right: 15px; margin: 0; border: 0;  }
+    .top-nav a { display: inline-block; font-size: 15px; color: #121212; text-transform: uppercase; text-decoration: none; white-space: nowrap; }
+
+    /* Crown */
+    .crown-img { width:100%; vertical-align:top; max-width:600px !important;}
+    .crown-desc-wrapper { margin-bottom: 20px; }
+    .crown-desc-wrapper .hed { font-size: 24px; font-family: "Playfair Display", serif; line-height: 1.4; font-style: normal; font-variant: normal; font-weight: 500; text-transform: uppercase; text-align: center; margin-top: 5px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;}
+    .crown-desc-wrapper .hed  a { line-height: 1.4; font-style: normal; font-variant: normal; text-decoration:none; color:#000000; }
+    .crown-desc-wrapper .desc { font-size:15px; color:#000000; line-height:1.5; text-align:center; margin-left:10%; margin-right:10%; margin-top:15px; margin-bottom:20px; }
+    .crown-desc-wrapper .desc.bold {
+      font-weight: bold;
+    }
+
+    /* Products - Columns Layout */
+    .products-grid { table-layout: fixed;}
+    .fluidColumn-inner { padding:20px 3px 20px 3px; }
+    .fluidColumn-img { padding: 3px;}
+    .fluidColumn-img img { width: 100% !important; height: auto !important;}
+    .fluidColumn-desc-wrapper .hed { font-size: 18px; font-weight: bold; margin-bottom: 20px;}
+    .fluidColumn-desc-wrapper .hed a { color: #515151; text-decoration: none; }
+    .fluidColumn-desc-wrapper .desc { font-size: 14px; line-height: 1.5; margin-bottom: 20px; margin-left: 10px; margin-right: 10px; }
+
+    .shop-btn-container { margin-top: 10px; }
+    .shop-btn-inner { margin-top: 15px; margin-bottom: 15px; margin-left: 30px; margin-right: 30px; }
+    .shop-btn { display:inline-block; white-space: nowrap; background-color:#ffffff; border-width:1px; border-color:#121212; border-style:solid; text-align:center; font-size: 20px; color: #121212; text-decoration: none; margin:0; padding:0; }
+    .shop-btn.small {  font-size: 16px; }
+    .shop-btn.small .shop-btn-inner {  font-size: 16px; margin-top: 10px; margin-bottom: 10px; margin-left: 20px; margin-right: 20px; }
+
+    .contact-us .hed { font-size: 15px; font-weight: bold; margin-bottom: 10px; text-align: center; color: #000000; }
+    .soc-btn.contact { width: 33.33%; text-align: center; }
+    .soc-btn.contact a { display: inline-block; color: #333333; font-size: 13px; text-decoration: none; }
+    .soc-btn.contact img { width: 80px !important; height: 80px !important; }
+
+    .disclaimer { font-size: 15px; line-height:1.2; color: #000000; text-decoration: none; margin-bottom:20px; }
+    .disclaimer.unsubscribe { margin-top: 40px; }
+
+    @media only screen and (max-width: 480px) {
+      .products-grid {
+        table-layout: auto !important;
+      }
+      .fluidColumn {
+        display: block !important;
+        width: 100% !important;
+      }
+      .fluidColumn-img img {
+        max-width: 480px !important;
+      }
+    }
+  </style>
+  <!--[if !mso]><!-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,700,700i" rel="stylesheet">
+  <!--<![endif]-->
+</head>
+
+<body bgcolor="#ffffff" style="background-color:#ffffff;">
+  <table width="100%" cellpadding="0" cellspacing="0" align="center" border="0" bgcolor="#ffffff" style="background-color:#ffffff;">
+    <tr>
+      <td>
+        <center>
+          <!--[if mso]>
+            <table width="600" cellpadding="0" cellspacing="0" border="0" align="center">
+              <tr>
+                <td>
+                <![endif]-->
+                <div class="body-wrap">
+                  <table bgcolor="#ffffff" width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="margin:0; padding:0; max-width: 600px;">
+                    <tr>
+                      <td>
+                       <!-- Header -->
+                       <table class="logo-header" width="100%" bgcolor="#ffffff" cellpadding="0" cellspacing="0" border="0">
+                        <tr><td align="center" valign="middle" cellpadding="0"><div class="pre-header-wrapper"><a class="pre-header-link" href="https://www.bondno9.com/" title="COMPLIMENTARY SAMPLES &amp; SHIPPING WITH EVERY ORDER">COMPLIMENTARY SAMPLES &amp; SHIPPING <span style="white-space: nowrap;">WITH EVERY ORDER</span></a></div></td></tr>
+                        <tr><td align="center" bgcolor="#ffffff" valign="middle" style="background-color: #ffffff;"><a style="background-color: #ffffff;" href="https://www.bondno9.com/" title="Bond No. 9"><img class="bond-logo" alt="Bond No. 9" src="https://staticapp.icpsc.com/icp/resources/mogile/50022/4f09987de1f708b2cf3c1f4b8bec3a38.jpeg" width="200" border="0" align="center" valign="middle" /><img alt="Bond No. 9 Token" src="https://www.bondno9.com/css/images/logo-secondary.gif" alt="" width="50" height="50" border="0" align="center" valign="middle" style="width:50px; height:50px; border:0" /></a></td></tr>
+                      </table>
+                      <!-- HEADER ENDS -->
+
+                      <!-- TOP NAV -->
+                      <table class="top-nav" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td><a style="color: #121212;" align="center" width="33.3333%" color="#121212" href="https://www.bondno9.com/shop/eau-de-parfum/" target="_blank" title="SHOP">SHOP</a></td>
+                          <td><a style="color: #121212;" align="center" width="33.3333%" color="#121212" href="https://www.bondno9.com/shop/best-sellers/" target="_blank" title="BEST SELLERS">BEST SELLERS</a></td>
+                          <td><a style="color: #121212;" align="center" width="33.3333%" color="#121212" href="https://www.bondno9.com/shop/gifts/" target="_blank" title="gifts">GIFTS</a></td>
+                        </tr>
+                      </table>
+                      <!-- TOP NAV ENDS -->
+
+                      <div class="content">
+                        <!-- CROWN 1 -->
+                        <table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="background-color:#ffffff;">
+                          <tr>
+                            <td align="center" valign="top">
+                              <div class="crown-img-wrapper extra-bottom-space">
+                                <a href="https://www.bondno9.com/stores.html" title="BOND NO. 9 in Bloomingdale"><img class="crown-img" align="top center" border="0" alt="BOND NO. 9 In Bloomingdale" src="https://staticapp.icpsc.com/icp/resources/mogile/50022/004f683cac38248f9938257a2ee14e8a.jpeg"></a>
+                              </div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="center">
+                              <center>
+                                <div class="crown-desc-wrapper">
+                                  <div class="hed"><a href="https://www.bondno9.com/stores.html" title="BOND NO. 9 IS EXPANDING &mdash; IN NEW YORK!">BOND NO. 9 IS EXPANDING &mdash; <span style="white-space: nowrap;">IN NEW YORK!</span></a></div>
+                                  <div class="desc" align="center">Our Next Perfumerie: Bloomingdale&#39;s 59th Street</div>
+                                  <div class="desc" align="center">We&#39;ve Built a Near-Replica of Our Flagship Boutique Interior, Complete With Multi-Lingual Staff.</div>
+                                  <div class="desc" align="center">Our Perfumistas Desiree, Lorely &amp; Hector are Ready to Greet You on The Fragrance Floor, Main Level</div>
+                                  <div class="desc" align="center">(212) 705-2000, Ext. 5156</div>
+                                  <div class="shop-btn-container"><a class="shop-btn" width="130" href="https://www.bondno9.com/stores.html" title="SHOP NOW"><div class="shop-btn-inner">LEARN MORE</div></a></div>
+                                </div>
+                              </center>
+                            </td>
+                          </tr>
+                        </table>
+                        <!-- CROWN 1 ENDS -->
+
+                        <div class="clearfix spacer" style="clear:both">&nbsp;</div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- FOOTER -->
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" bgcolor="#ffffff" style="background-color:#ffffff;">
+                  <tr><td>
+                    <table align="center" class="social" width="100%" cellpadding="1" cellspacing="1" style="width:100%; table-layout:fixed; border-top: 1px solid #cccccc;">
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                      <tr>
+                        <td align="center">
+                          <table class="contact-us" align="center" border="0" cellpadding="0" cellspacing="0" style="width:100%; table-layout:fixed;">
+                            <thead>
+                              <tr>
+                                <th colspan="3" class="hed" align="center">CONTACT US</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr><td colspan="3">&nbsp;</td></tr>
+                              <tr>
+                              <td class="soc-btn contact" align="center"><a href="tel:646.284.9009" value="+16462849009" target="_blank" title="(646) 284-9009"><img width="80" height="80" alt="Phone" align="center" src="https://staticapp.icpsc.com/icp/resources/mogile/50022/a04b4dd180a4c6e0019ee08bac11e7df.gif" /></a></td>
+                              <td class="soc-btn contact" align="center"><a href="mailto:contactus@bondno9.com" target="_blank" title="contactus@bondno9.com"><img width="80" height="80" alt="Email" align="center" src="https://staticapp.icpsc.com/icp/resources/mogile/50022/352a4187c2f61198fa1e03699d10e4c0.gif" /></a></td>
+                              <td class="soc-btn contact" align="center"><a href="sms:8565148687" target="_blank" title="Text Us: (856)-514-8687"><img width="80" height="80" alt="SMS" align="center" src="https://staticapp.icpsc.com/icp/resources/mogile/50022/05f5f28260f4916f529b940cfa6d59dd.gif" /></a></td>
+                            </tr></tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>&nbsp;</td>
+                      </tr>
+                    </table>
+                  </td></tr>
+                  <tr>
+                    <td>
+                      <!-- disclaimer -->
+                      <table width="100%" cellpadding="10" cellspacing="10" style="width:100%;">
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+                            <div class="disclaimer">
+                              FREE SHIPPING:<br />
+                              Free Standard Shipping every day, no minimum purchase required. Offer valid at <a href="https://www.bondno9.com/" title="bondno9.com" style="color:#000000; text-decoration: underline;">bondno9.com</a> only. Valid on shipments to US addresses only. Not valid on international shipments. Offer not valid on Rush 3-Day, 2-Day or Next Day Air orders. This offer is non-transferable. Only authorized purchases will be processed and shipped.
+                            </div>
+
+                            <div class="disclaimer">
+                              COMPLIMENTARY SAMPLES OFFER:<br />
+                              Select up to three complimentary samples with any <a href="https://www.bondno9.com/" title="bondno9.com" style="color:#000000; text-decoration: underline;">bondno9.com</a> purchase, no minimum purchase required. Select the samples at checkout from your cart at <a href="https://www.bondno9.com/" title="bondno9.com" style="color:#000000; text-decoration: underline;">bondno9.com</a>. Only one offer valid per customer.
+                            </div>
+
+                            <div class="disclaimer">
+                              PRESENT YOUR GIFT IN <span style="white-space: nowrap;">OUR EXQUISITE WRAP:</span><br />
+                              Enjoy Bond No. 9 exquisite gift wrap for your <a href="https://www.bondno9.com/shop/gifts" title="Gift Giving" style="color:#000000; text-decoration: underline;">Gift Giving</a>.
+                            </div>
+
+                            <div class="disclaimer unsubscribe">You are receiving this message because you requested information from BOND NO. 9. If you are no longer interested in receiving our newsletter or feel you are receiving this message in error, <a href="[manage_your_subscription_url]" style="color:#000000; text-decoration: underline;">Click here to Unsubscribe</a>.</div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>&nbsp;</td>
+                        </tr>
+                      </table>
+                      <!-- disclaimer ends -->
+                    </td>
+                  </tr>
+                </table>
+                <!-- FOOTER ENDS -->
+              </div>
+          <!--[if mso]>
+            </td>
+          </tr>
+        </table>
+      <![endif]-->
+    </center>
+  </td>
+</tr>
+</table>
+</body>
+</html>
